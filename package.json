@@ -1,0 +1,24 @@
+{
+  "name": "dark-nova",
+  "version": "0.0.1",
+  "displayName": "Dark Nova",
+  "description": "Dark theme with semantic token support",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "url": "https://github.com/peter-donovan/dark-nova-theme"
+  },
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Nova",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Nova-color-theme.json"
+      }
+    ]
+  }
+}
