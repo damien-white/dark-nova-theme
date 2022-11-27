@@ -243,7 +243,7 @@
     "debugIcon.stepOutForeground": "#75beff",
     "debugIcon.stepOverForeground": "#75beff",
     "debugIcon.stopForeground": "#f48771",
-    "debugTokenExpression.boolean": "#4e94ce",
+    "debugTokenExpression.boolean": "#ffedd5",
     "debugTokenExpression.error": "#f48771",
     "debugTokenExpression.name": "#c586c0",
     "debugTokenExpression.number": "#b5cea8",
@@ -539,10 +539,10 @@
 	FIXME: Symbols 
 	*/
     "symbolIcon.arrayForeground": "#6ee7b7",
-    "symbolIcon.booleanForeground": "#d9f99d",
+    "symbolIcon.booleanForeground": "#ffedd5",
     "symbolIcon.colorForeground": "#fbcfe8",
     "symbolIcon.constructorForeground": "#d8b4fe",
-    "symbolIcon.eventForeground": "#fcd34d",
+    "symbolIcon.eventForeground": "#fc96d5",
     "symbolIcon.fileForeground": "#6ee7b7",
     "symbolIcon.folderForeground": "#fef08a",
     "symbolIcon.keyForeground": "#fdba74",
@@ -552,22 +552,22 @@
     "symbolIcon.operatorForeground": "#b4b4dd",
     "symbolIcon.packageForeground": "#e4e4e7",
     "symbolIcon.referenceForeground": "#d4d4d8",
-    "symbolIcon.snippetForeground": "#d4d4d8",
+    "symbolIcon.snippetForeground": "#67e8f9",
     "symbolIcon.stringForeground": "#d4c896",
     "symbolIcon.textForeground": "#d4d4d8",
     "symbolIcon.unitForeground": "#c8c8d2",
     /* Symbol icons (done) */
     "symbolIcon.classForeground": "#93c5fd",
-    "symbolIcon.constantForeground": "#ddd6fe",
+    "symbolIcon.constantForeground": "#f1dc93",
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
     "symbolIcon.functionForeground": "#d8b4fe",
-    "symbolIcon.interfaceForeground": "#f2bbfc",
+    "symbolIcon.interfaceForeground": "#f1f1da",
     "symbolIcon.keywordForeground": "#a5f3fc",
     "symbolIcon.methodForeground": "#d8b4fe",
     "symbolIcon.moduleForeground": "#e4e4e7",
-    "symbolIcon.namespaceForeground": "#cffafe",
+    "symbolIcon.namespaceForeground": "#e6f4f8d9",
     "symbolIcon.propertyForeground": "#fdba74",
     "symbolIcon.structForeground": "#93c5fd",
     "symbolIcon.typeParameterForeground": "#fef3c7",
@@ -745,7 +745,7 @@
       ],
       "settings": {
         "foreground": "#a5f3fc",
-        "fontStyle": "italic bold"
+        "fontStyle": "bold"
       }
     },
     {
@@ -785,7 +785,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#ddd6fe"
+        "foreground": "#f1dc93"
       }
     },
     {
@@ -873,7 +873,7 @@
         "variable.other.constant.elixir"
       ],
       "settings": {
-        "foreground": "#cffafe"
+        "foreground": "#e6f4f8d9"
       }
     },
     {
@@ -896,8 +896,7 @@
         "punctuation.definition.lifetime"
       ],
       "settings": {
-        "foreground": "#fdba74",
-        "fontStyle": ""
+        "foreground": "#fdba74"
       }
     },
     {
@@ -1025,7 +1024,7 @@
         "entity.name.function.asciidoc"
       ],
       "settings": {
-        "foreground": "#c8c8d2"
+        "foreground": "#a5f3fc"
       }
     },
     {
@@ -1035,7 +1034,7 @@
         "string.unquoted.asciidoc"
       ],
       "settings": {
-        "foreground": "#d4d4d8"
+        "foreground": "#d4c896"
       }
     },
     {
@@ -1134,15 +1133,14 @@
       "fontStyle": "bold"
     },
     "boolean": {
-      "foreground": "#ffedd5",
-      "fontStyle": "italic bold"
+      "foreground": "#ffedd5"
     },
     "selfParameter": {
       "foreground": "#e4e4e7",
-      "fontStyle": "italic bold"
+      "fontStyle": "bold"
     },
     "number": {
-      "foreground": "#ffedd5"
+      "foreground": "#ffd380"
     },
     "string": {
       "foreground": "#d4c896"
@@ -1163,13 +1161,35 @@
       "foreground": "#fef08a"
     },
     "variable.static": {
-      "foreground": "#ddd6fe"
+      "foreground": "#f1dc93"
     },
     "function": {
       "foreground": "#d8b4fe"
     },
     "method": {
       "foreground": "#d8b4fe"
+    },
+    /* Self keyword and Type */
+    "selfKeyword": {
+      "foreground": "#e4e4e7c7",
+      "fontStyle": "bold"
+    },
+    "selfTypeKeyword": {
+      "foreground": "#e4e4e7c7"
+    },
+    /* Variable */
+    "variable.constant": {
+      "foreground": "#f1dc93"
+    },
+    "variable.constant.declaration": {
+      "foreground": "#f1dc93",
+      "fontStyle": "bold"
+    },
+    "variable.constant.injected": {
+      "foreground": "#f1dc93"
+    },
+    "variable.static.injected": {
+      "foreground": "#f1dc93"
     },
     "function.public.declaration": {
       "foreground": "#d8b4fe",
@@ -1179,8 +1199,9 @@
       "foreground": "#d8b4fe",
       "fontStyle": "bold"
     },
+    /* Fallback type (appears to be used throughout entire VSCode) */
     "type": {
-      "foreground": "#fef9c3"
+      "foreground": "#93C5FD"
     },
     "class": {
       "foreground": "#93c5fd"
@@ -1222,7 +1243,7 @@
       "fontStyle": "bold"
     },
     "builtinType": {
-      "foreground": "#bbf7d0"
+      "foreground": "#dbc0f4"
     },
     "typeParameter": {
       "foreground": "#fef3c7"
@@ -1231,17 +1252,17 @@
       "foreground": "#fdba74"
     },
     "interface": {
-      "foreground": "#f2bbfc"
+      "foreground": "#f1f1da"
     },
     "interface.public.declaration": {
-      "foreground": "#f2bbfc",
+      "foreground": "#f1f1da",
       "fontStyle": "bold"
     },
     "namespace": {
-      "foreground": "#cffafe"
+      "foreground": "#e6f4f8d9"
     },
     "namespace.crateRoot": {
-      "foreground": "#e4e4e7"
+      "foreground": "#e4e4e7e0"
     },
     "macro": {
       "foreground": "#67e8f9"
@@ -1250,7 +1271,7 @@
       "foreground": "#fdba74"
     },
     "escapeSequence": {
-      "foreground": "#5eead4"
+      "foreground": "#22d3ee"
     },
     "formatSpecifier": {
       "foreground": "#5eead4"
@@ -1264,25 +1285,31 @@
     "attribute": {
       "foreground": "#c8c8d2"
     },
+    /* Attributes */
+    "attributeBracket": {
+      "foreground": "#d2d2e8"
+    },
+    "builtinAttribute": {
+      "foreground": "#74d5e8"
+    },
     "derive": {
       "foreground": "#67e8f9"
     },
     "*.unsafe": {
-      "foreground": "#fa8f5a",
-      "fontStyle": "bold"
+      "foreground": "#fa8f5a"
     },
     "function.unsafe": {
       "foreground": "#fa8f5a"
+    },
+    "operator.controlFlow": {
+      "foreground": "#a5f3fc"
     },
     "operator.unsafe": {
       "foreground": "#fa8f5a"
     },
     "punctuation": {
-      "foreground": "#d4d4d8",
+      "foreground": "#c8c8d2e0",
       "fontStyle": ""
-    },
-    "*.mutable": {
-      "fontStyle": "underline"
     },
     "*.public.declaration": {
       "fontStyle": "bold"
@@ -1312,7 +1339,7 @@
       "fontStyle": "italic bold"
     },
     "number.injected": {
-      "foreground": "#ffedd5"
+      "foreground": "#ffd380"
     },
     "string.injected": {
       "foreground": "#d4c896"
@@ -1325,9 +1352,6 @@
     },
     "constParameter.injected": {
       "foreground": "#fef08a"
-    },
-    "variable.static.injected": {
-      "foreground": "#ddd6fe"
     },
     "function.injected": {
       "foreground": "#d8b4fe"
@@ -1395,17 +1419,20 @@
       "foreground": "#fdba74"
     },
     "interface.injected": {
-      "foreground": "#f2bbfc"
+      "foreground": "#f1f1da"
     },
     "interface.public.declaration.injected": {
-      "foreground": "#f2bbfc",
+      "foreground": "#f1f1da",
       "fontStyle": "bold"
     },
-    "*.trait.injected": {
-      "foreground": "#f2bbfc"
-    },
+    // "*.trait.injected": {
+    //   "foreground": "#f1f1da"
+    // },
     "namespace.injected": {
-      "foreground": "#cffafe"
+      "foreground": "#e6f4f8d9"
+    },
+    "namespace.crateRoot.injected": {
+      "foreground": "#e4e4e7"
     },
     "macro.injected": {
       "foreground": "#67e8f9"
@@ -1414,7 +1441,7 @@
       "foreground": "#fdba74"
     },
     "escapeSequence.injected": {
-      "foreground": "#5eead4"
+      "foreground": "#22d3ee"
     },
     "formatSpecifier.injected": {
       "foreground": "#5eead4"
@@ -1427,6 +1454,13 @@
     },
     "attribute.injected": {
       "foreground": "#c8c8d2"
+    },
+    /* Attributes */
+    "attributeBracket.injected": {
+      "foreground": "#d2d2e8"
+    },
+    "builtinAttribute.injected": {
+      "foreground": "#74d5e8"
     },
     "derive.injected": {
       "foreground": "#c8c8d2"
@@ -1444,12 +1478,12 @@
       "foreground": "#b4b4dd",
       "fontStyle": ""
     },
-    "*.mutable.injected": {
-      "underline": true
+    "*.mutable": {
+      "fontStyle": "underline"
     },
-    // "*.public.declaration.injected": {
-    //   "foreground": "#C8B0F6AA"
-    // },
+    "*.mutable.injected": {
+      "fontStyle": "underline"
+    },
     "unresolvedReference.injected": {
       "foreground": "#f89895",
       "underline": true
