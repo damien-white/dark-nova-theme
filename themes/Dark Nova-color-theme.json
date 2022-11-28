@@ -541,14 +541,14 @@
     "symbolIcon.arrayForeground": "#6ee7b7",
     "symbolIcon.booleanForeground": "#ffedd5",
     "symbolIcon.colorForeground": "#fbcfe8",
-    "symbolIcon.constructorForeground": "#d8b4fe",
+    "symbolIcon.constructorForeground": "#addcfb",
     "symbolIcon.eventForeground": "#fc96d5",
     "symbolIcon.fileForeground": "#6ee7b7",
     "symbolIcon.folderForeground": "#fef08a",
     "symbolIcon.keyForeground": "#fdba74",
     "symbolIcon.nullForeground": "#bbf7d0",
     "symbolIcon.numberForeground": "#fef3c7",
-    "symbolIcon.objectForeground": "#93c5fd",
+    "symbolIcon.objectForeground": "#96d6fc",
     "symbolIcon.operatorForeground": "#b4b4dd",
     "symbolIcon.packageForeground": "#e4e4e7",
     "symbolIcon.referenceForeground": "#d4d4d8",
@@ -557,21 +557,21 @@
     "symbolIcon.textForeground": "#d4d4d8",
     "symbolIcon.unitForeground": "#c8c8d2",
     /* Symbol icons (done) */
-    "symbolIcon.classForeground": "#93c5fd",
+    "symbolIcon.classForeground": "#96d6fc",
     "symbolIcon.constantForeground": "#f1dc93",
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
-    "symbolIcon.functionForeground": "#d8b4fe",
-    "symbolIcon.interfaceForeground": "#f1f1da",
+    "symbolIcon.functionForeground": "#addcfb",
+    "symbolIcon.interfaceForeground": "#f5c08a",
     "symbolIcon.keywordForeground": "#a5f3fc",
     "symbolIcon.methodForeground": "#d8b4fe",
     "symbolIcon.moduleForeground": "#e4e4e7",
     "symbolIcon.namespaceForeground": "#e6f4f8d9",
     "symbolIcon.propertyForeground": "#fdba74",
-    "symbolIcon.structForeground": "#93c5fd",
-    "symbolIcon.typeParameterForeground": "#fef3c7",
-    "symbolIcon.variableForeground": "#d4d4d8",
+    "symbolIcon.structForeground": "#96d6fc",
+    "symbolIcon.typeParameterForeground": "#f8e8a8",
+    "symbolIcon.variableForeground": "#e4e4e7c7",
     "tab.activeBackground": "#0f0f14",
     "tab.activeModifiedBorder": "#3399cc",
     "tab.inactiveModifiedBorder": "#3399cc80",
@@ -744,8 +744,7 @@
         "variable.language.this"
       ],
       "settings": {
-        "foreground": "#a5f3fc",
-        "fontStyle": "bold"
+        "foreground": "#a5f3fc"
       }
     },
     {
@@ -768,7 +767,7 @@
     {
       "scope": ["variable"],
       "settings": {
-        "foreground": "#e0e0f2"
+        "foreground": "#e4e4e7c7"
       }
     },
     {
@@ -798,7 +797,7 @@
         "entity.other.attribute-name.table.array.toml"
       ],
       "settings": {
-        "foreground": "#d8b4fe"
+        "foreground": "#addcfb"
       }
     },
     {
@@ -896,7 +895,7 @@
         "punctuation.definition.lifetime"
       ],
       "settings": {
-        "foreground": "#fdba74"
+        "foreground": "#adfb9dd8"
       }
     },
     {
@@ -948,7 +947,7 @@
         "entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#93c5fd"
+        "foreground": "#96d6fc"
       }
     },
     {
@@ -1129,8 +1128,8 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "keyword": {
-      "foreground": "#a5f3fc",
-      "fontStyle": "bold"
+      "foreground": "#a5f3fc"
+      // "fontStyle": "bold"
     },
     "boolean": {
       "foreground": "#ffedd5"
@@ -1140,7 +1139,7 @@
       "fontStyle": "bold"
     },
     "number": {
-      "foreground": "#ffd380"
+      "foreground": "#a3da9a"
     },
     "string": {
       "foreground": "#d4c896"
@@ -1149,7 +1148,7 @@
       "foreground": "#d4d4d8"
     },
     "parameter": {
-      "foreground": "#d8d8e2"
+      "foreground": "#e4e4e7e8"
     },
     "parameter.consuming": {
       "foreground": "#d8d8e2"
@@ -1164,18 +1163,32 @@
       "foreground": "#f1dc93"
     },
     "function": {
-      "foreground": "#d8b4fe"
+      "foreground": "#addcfb"
+    },
+    "function.public": {
+      "foreground": "#addcfb"
+    },
+    "function.declaration.public": {
+      "foreground": "#addcfb",
+      "fontStyle": "bold"
     },
     "method": {
-      "foreground": "#d8b4fe"
+      "foreground": "#addcfb"
+    },
+    "method.public": {
+      "foreground": "#addcfb"
+    },
+    "method.declaration.public": {
+      "foreground": "#addcfb",
+      "fontStyle": "bold"
     },
     /* Self keyword and Type */
     "selfKeyword": {
-      "foreground": "#e4e4e7c7",
+      "foreground": "#e4e4e7",
       "fontStyle": "bold"
     },
     "selfTypeKeyword": {
-      "foreground": "#e4e4e7c7"
+      "foreground": "#e4e4e7"
     },
     /* Variable */
     "variable.constant": {
@@ -1192,22 +1205,22 @@
       "foreground": "#f1dc93"
     },
     "function.public.declaration": {
-      "foreground": "#d8b4fe",
+      "foreground": "#addcfb",
       "fontStyle": "bold"
     },
     "method.public.declaration": {
-      "foreground": "#d8b4fe",
+      "foreground": "#aad4e4",
       "fontStyle": "bold"
     },
     /* Fallback type (appears to be used throughout entire VSCode) */
     "type": {
-      "foreground": "#93C5FD"
+      "foreground": "#96d6fc"
     },
     "class": {
-      "foreground": "#93c5fd"
+      "foreground": "#96d6fc"
     },
     "struct": {
-      "foreground": "#93c5fd"
+      "foreground": "#96d6fc"
     },
     "enum": {
       "foreground": "#6ee7b7"
@@ -1216,18 +1229,18 @@
       "foreground": "#86efac"
     },
     "typeAlias": {
-      "foreground": "#fef9c3"
+      "foreground": "#f8e8a8"
     },
     "type.public.declaration": {
-      "foreground": "#fef9c3",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "class.public.declaration": {
-      "foreground": "#93c5fd",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "struct.public.declaration": {
-      "foreground": "#93c5fd",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "enum.public.declaration": {
@@ -1239,36 +1252,36 @@
       "fontStyle": "bold"
     },
     "typeAlias.public.declaration": {
-      "foreground": "#fef9c3",
+      "foreground": "#f8e8a8",
       "fontStyle": "bold"
     },
     "builtinType": {
-      "foreground": "#dbc0f4"
+      "foreground": "#a3da9a"
     },
     "typeParameter": {
-      "foreground": "#fef3c7"
+      "foreground": "#f8e8a8"
     },
     "property": {
       "foreground": "#fdba74"
     },
     "interface": {
-      "foreground": "#f1f1da"
+      "foreground": "#f5c08a"
     },
     "interface.public.declaration": {
-      "foreground": "#f1f1da",
+      "foreground": "#f5c08a",
       "fontStyle": "bold"
     },
     "namespace": {
-      "foreground": "#e6f4f8d9"
+      "foreground": "#e6eaf8e0"
     },
     "namespace.crateRoot": {
-      "foreground": "#e4e4e7e0"
+      "foreground": "#e4e4e7"
     },
     "macro": {
       "foreground": "#67e8f9"
     },
     "lifetime": {
-      "foreground": "#fdba74"
+      "foreground": "#adfb9dd8"
     },
     "escapeSequence": {
       "foreground": "#22d3ee"
@@ -1311,15 +1324,15 @@
       "foreground": "#c8c8d2e0",
       "fontStyle": ""
     },
-    "*.public.declaration": {
-      "fontStyle": "bold"
-    },
+    // "*.public.declaration": {
+    //   "fontStyle": "bold"
+    // },
     "unresolvedReference": {
       "foreground": "#f89895",
       "underline": true
     },
     "magit-ref-name": {
-      "foreground": "#d8b4fe",
+      "foreground": "#addcfb",
       "bold": true
     },
     "magit-remote-ref-name": {
@@ -1327,8 +1340,8 @@
       "bold": true
     },
     "keyword.injected": {
-      "foreground": "#a5f3fc",
-      "bold": true
+      "foreground": "#a5f3fc"
+      // "bold": true
     },
     "boolean.injected": {
       "foreground": "#ffedd5",
@@ -1345,7 +1358,7 @@
       "foreground": "#d4c896"
     },
     "variable.injected": {
-      "foreground": "#d4d4d8"
+      "foreground": "#e4e4e7c7"
     },
     "enumMember.injected": {
       "foreground": "#99f6e4"
@@ -1354,27 +1367,27 @@
       "foreground": "#fef08a"
     },
     "function.injected": {
-      "foreground": "#d8b4fe"
+      "foreground": "#addcfb"
     },
     "method.injected": {
-      "foreground": "#d8b4fe"
+      "foreground": "#addcfb"
     },
     "function.public.declaration.injected": {
-      "foreground": "#d8b4fe",
+      "foreground": "#addcfb",
       "fontStyle": "bold"
     },
     "method.public.declaration.injected": {
-      "foreground": "#d8b4fe",
+      "foreground": "#addcfb",
       "fontStyle": "bold"
     },
-    // "type.injected": {
-    //   "foreground": "#93c5fd"
-    // },
+    "type.injected": {
+      "foreground": "#96d6fc"
+    },
     "class.injected": {
-      "foreground": "#93c5fd"
+      "foreground": "#96d6fc"
     },
     "struct.injected": {
-      "foreground": "#93c5fd"
+      "foreground": "#96d6fc"
     },
     "enum.injected": {
       "foreground": "#6ee7b7"
@@ -1383,18 +1396,18 @@
       "foreground": "#86efac"
     },
     "typeAlias.injected": {
-      "foreground": "#bae6fd"
+      "foreground": "#f8e8a8"
     },
     "type.public.declaration.injected": {
-      // "foreground": "#6ee7b7",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "class.public.declaration.injected": {
-      "foreground": "#93c5fd",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "struct.public.declaration.injected": {
-      "foreground": "#93c5fd",
+      "foreground": "#96d6fc",
       "fontStyle": "bold"
     },
     "enum.public.declaration.injected": {
@@ -1406,30 +1419,27 @@
       "fontStyle": "bold"
     },
     "typeAlias.public.declaration.injected": {
-      "foreground": "#bae6fd",
+      "foreground": "#f8e8a8",
       "fontStyle": "bold"
     },
     "builtinType.injected": {
       "foreground": "#bbf7d0"
     },
     "typeParameter.injected": {
-      "foreground": "#fef3c7"
+      "foreground": "#f8e8a8"
     },
     "property.injected": {
       "foreground": "#fdba74"
     },
     "interface.injected": {
-      "foreground": "#f1f1da"
+      "foreground": "#f5c08a"
     },
     "interface.public.declaration.injected": {
-      "foreground": "#f1f1da",
+      "foreground": "#f5c08a",
       "fontStyle": "bold"
     },
-    // "*.trait.injected": {
-    //   "foreground": "#f1f1da"
-    // },
     "namespace.injected": {
-      "foreground": "#e6f4f8d9"
+      "foreground": "#e6eaf8e0"
     },
     "namespace.crateRoot.injected": {
       "foreground": "#e4e4e7"
@@ -1438,7 +1448,7 @@
       "foreground": "#67e8f9"
     },
     "lifetime.injected": {
-      "foreground": "#fdba74"
+      "foreground": "#adfb9dd8"
     },
     "escapeSequence.injected": {
       "foreground": "#22d3ee"
@@ -1489,7 +1499,7 @@
       "underline": true
     },
     "magit-ref-name.injected": {
-      "foreground": "#d8b4fe",
+      "foreground": "#addcfb",
       "bold": true
     },
     "magit-remote-ref-name.injected": {
