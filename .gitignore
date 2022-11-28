@@ -10,3 +10,10 @@ node_modules
 .spec/
 .spec/colors*
 .spec/palette*
+
+## Internal Cargo project
+/target
+Cargo.toml
+Cargo.lock
+/src
+/palette
