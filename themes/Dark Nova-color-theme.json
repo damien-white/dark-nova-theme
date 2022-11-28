@@ -895,7 +895,8 @@
         "punctuation.definition.lifetime"
       ],
       "settings": {
-        "foreground": "#adfb9dd8"
+        "foreground": "#adfb9dd8",
+        "fontStyle": ""
       }
     },
     {
@@ -1281,7 +1282,8 @@
       "foreground": "#67e8f9"
     },
     "lifetime": {
-      "foreground": "#adfb9dd8"
+      "foreground": "#adfb9dd8",
+      "fontStyle": ""
     },
     "escapeSequence": {
       "foreground": "#22d3ee"
@@ -1448,7 +1450,16 @@
       "foreground": "#67e8f9"
     },
     "lifetime.injected": {
-      "foreground": "#adfb9dd8"
+      "foreground": "#adfb9dd8",
+      "fontStyle": ""
+    },
+    "lifetime.declaration": {
+      "foreground": "#adfb9dd8",
+      "fontStyle": ""
+    },
+    "lifetime.declaration.public": {
+      "foreground": "#adfb9dd8",
+      "fontStyle": ""
     },
     "escapeSequence.injected": {
       "foreground": "#22d3ee"
