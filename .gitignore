@@ -15,5 +15,6 @@ node_modules
 /target
 Cargo.toml
 Cargo.lock
-/src
+src/**/*.rs
 /palette
+!/palette/colors.scss

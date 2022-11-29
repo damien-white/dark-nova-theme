@@ -1,6 +1,6 @@
 {
   "name": "dark-nova",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "displayName": "Dark Nova",
   "description": "Dark theme with semantic token support",
   "publisher": "dark-nova",
@@ -13,11 +13,8 @@
   "engines": {
     "vscode": "^1.73.0"
   },
-  "devDependencies": {
-    "vsce": "^2.14.0"
-  },
   "scripts": {
-    "publish": "vsce publish --"
+    "publish": "npx vsce publish --pat $VSCE_PAT"
   },
   "contributes": {
     "themes": [
