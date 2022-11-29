@@ -558,7 +558,7 @@
     "symbolIcon.unitForeground": "#c8c8d2",
     /* Symbol icons (done) */
     "symbolIcon.classForeground": "#67e8f9",
-    "symbolIcon.constantForeground": "#f1dc93",
+    "symbolIcon.constantForeground": "#85d274",
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
@@ -785,7 +785,7 @@
         "support.constant"
       ],
       "settings": {
-        "foreground": "#f1dc93"
+        "foreground": "#85d274"
       }
     },
     {
@@ -857,7 +857,7 @@
     {
       "scope": ["entity.name.tag.toml", "entity.name.tag.yaml"],
       "settings": {
-        "foreground": "#e4cc85",
+        "foreground": "#fdba74",
         "fontStyle": ""
       }
     },
@@ -1164,9 +1164,6 @@
     "constParameter.injected": {
       "foreground": "#fef08a"
     },
-    "variable.static": {
-      "foreground": "#f1dc93"
-    },
     "function": {
       "foreground": "#87cdeb"
     },
@@ -1197,13 +1194,16 @@
       "foreground": "#e4e4e7b8"
     },
     "variable.constant": {
-      "foreground": "#f1dc93"
+      "foreground": "#85d274"
     },
     "variable.constant.injected": {
-      "foreground": "#f1dc93"
+      "foreground": "#85d274"
+    },
+    "variable.static": {
+      "foreground": "#85d274"
     },
     "variable.static.injected": {
-      "foreground": "#f1dc93"
+      "foreground": "#85d274"
     },
     /* Fallback type (appears to be used throughout entire VSCode) */
     "type": {

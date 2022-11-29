@@ -13,6 +13,12 @@
   "engines": {
     "vscode": "^1.73.0"
   },
+  "devDependencies": {
+    "vsce": "^2.14.0"
+  },
+  "scripts": {
+    "publish": "vsce publish --"
+  },
   "contributes": {
     "themes": [
       {
