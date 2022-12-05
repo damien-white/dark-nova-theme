@@ -1,8 +1,8 @@
 {
   "name": "dark-nova",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "displayName": "Dark Nova",
-  "description": "Dark theme with semantic token support",
+  "description": "Dark theme that prioritizes semantic token support",
   "publisher": "dark-nova",
   "categories": [
     "Themes"
