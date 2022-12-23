@@ -62,7 +62,7 @@
     "editorGutter.addedBackground": "#75ae77",
     "editorGutter.background": "#25293640",
     "editorGutter.deletedBackground": "#d58485",
-    "editorGutter.modifiedBackground": "#af9e51",
+    "editorGutter.modifiedBackground": "#f5d795",
     "editorIndentGuide.activeBackground": "#353a48",
     "editorIndentGuide.background": "#252936",
     "editorInfo.foreground": "#6ee7b7",
@@ -79,7 +79,7 @@
     "editorOverviewRuler.errorForeground": "#f89895",
     "editorOverviewRuler.findMatchForeground": "#6ee7b788",
     "editorOverviewRuler.infoForeground": "#6ee7b7",
-    "editorOverviewRuler.modifiedForeground": "#c0ae61",
+    "editorOverviewRuler.modifiedForeground": "#f5d795",
     "editorOverviewRuler.rangeHighlightForeground": "#6ee7b733",
     "editorWarning.foreground": "#ffb964",
     "editorWidget.background": "#191c27",
@@ -107,10 +107,10 @@
     "tab.unfocusedInactiveBackground": "#0a0c13",
     "tab.hoverBackground": "#191c27",
     "tab.border": "#94a3b8",
-    "tab.activeModifiedBorder": "#3399cc",
-    "tab.inactiveModifiedBorder": "#3399cc80",
-    "tab.unfocusedActiveModifiedBorder": "#f5d79580",
-    "tab.unfocusedInactiveModifiedBorder": "#3399cc40",
+    "tab.activeModifiedBorder": "#7dd3fc",
+    "tab.inactiveModifiedBorder": "#7dd3fc80",
+    "tab.unfocusedActiveModifiedBorder": "#7dd3fc80",
+    "tab.unfocusedInactiveModifiedBorder": "#7dd3fc40",
     "tab.lastPinnedBorder": "#cbd5e1",
     "tab.unfocusedActiveBorderTop": "#94a3b8",
     "tab.hoverForeground": "#e2e8f0",
@@ -119,11 +119,11 @@
     "gitDecoration.conflictingResourceForeground": "#e4676b",
     "gitDecoration.ignoredResourceForeground": "#989da4",
     "gitDecoration.modifiedResourceForeground": "#f5d795",
-    "gitDecoration.untrackedResourceForeground": "#bae6fd",
+    "gitDecoration.untrackedResourceForeground": "#7dd3fc",
     "gitDecoration.deletedResourceForeground": "#e4676bc8",
     "gitDecoration.renamedResourceForeground": "#94e696c8",
     "gitDecoration.stageDeletedResourceForeground": "#a0a8b3e0",
-    "gitDecoration.stageModifiedResourceForeground": "#f5d795c8",
+    "gitDecoration.stageModifiedModifiedResourceForeground": "#f5d795c8",
     "gitDecoration.submoduleResourceForeground": "#65e8e0",
     "input.background": "#0a0c13",
     "input.border": "#252936",
@@ -143,7 +143,7 @@
     "minimap.warningHighlight": "#ffb964",
     "minimapGutter.addedBackground": "#94e696",
     "minimapGutter.deletedBackground": "#e4676bc8",
-    "minimapGutter.modifiedBackground": "#feda91",
+    "minimapGutter.modifiedBackground": "#f5d795",
     "panel.background": "#0a0c13",
     "panel.border": "#353a48",
     "panelTitle.activeForeground": "#e2e8f0cc",
@@ -163,7 +163,7 @@
     "scrollbar.shadow": "#10131b88",
     "selection.background": "#94a3b880",
     "settings.headerForeground": "#8affe5",
-    "settings.modifiedItemIndicator": "#6ee7b7",
+    "settings.modifiedItemIndicator": "#7dd3fc",
     "sideBar.background": "#0a0c13",
     "sideBar.foreground": "#e2e8f0",
     "sideBarTitle.foreground": "#8affe5",
@@ -1336,10 +1336,21 @@
       "foreground": "#86efac"
     },
     "typeAlias": {
-      "foreground": "#f1f5f9"
+      "foreground": "#7dd3fc"
     },
     "typeAlias.injected": {
+      "foreground": "#7dd3fc"
+    },
+    "typeAlias.declaration": {
       "foreground": "#f1f5f9"
+    },
+    "typeAlias.trait": {
+      "foreground": "#f1f5f9",
+      "fontStyle": "bold"
+    },
+    "typeAlias.declaration.trait": {
+      "foreground": "#f1f5f9",
+      "fontStyle": "bold"
     },
     "builtinType": {
       "foreground": "#daa5f8"
@@ -1388,16 +1399,16 @@
       "foreground": "#faf2bc"
     },
     "macro": {
-      "foreground": "#d8b4fe",
-      "fontStyle": "bold"
+      "foreground": "#22D3EE",
+      "fontStyle": "underline"
     },
     "macro.injected": {
-      "foreground": "#d8b4fe",
-      "fontStyle": "bold"
+      "foreground": "#22D3EE",
+      "fontStyle": "underline"
     },
     "macro.unsafe": {
-      "foreground": "#d8b4fe",
-      "fontStyle": "bold"
+      "foreground": "#22D3EE",
+      "fontStyle": "underline"
     },
     "lifetime": {
       "foreground": "#adfb9dd8",
