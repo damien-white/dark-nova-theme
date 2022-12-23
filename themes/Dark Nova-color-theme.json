@@ -729,24 +729,26 @@
         "foreground": "#f5d795"
       }
     },
-    {
-      "name": "Rust string interpolation",
-      "scope": [
-        "punctuation.definition.interpolation.rust",
-        "meta.interpolation.rust"
-      ],
-      "settings": {
-        "foreground": "#5eead7",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["storage.modifier.mut.rust", "source.rust"],
-      "settings": {
-        "foreground": "#5eead7",
-        "fontStyle": ""
-      }
-    },
+    // FIXME: String interpolation within macros does not work as intended.
+    // {
+    //   "name": "Rust string interpolation",
+    //   "scope": [
+    //     "punctuation.definition.interpolation.rust",
+    //     "meta.interpolation.rust",
+    //     "source.rust"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#5eead7",
+    //     "fontStyle": ""
+    //   }
+    // },
+    // {
+    //   "scope": ["storage.modifier.mut.rust", "source.rust"],
+    //   "settings": {
+    //     "foreground": "#5eead7",
+    //     "fontStyle": ""
+    //   }
+    // },
     {
       "name": "Wildcard import symmbol",
       "scope": [
