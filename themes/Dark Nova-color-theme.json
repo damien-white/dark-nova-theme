@@ -124,7 +124,7 @@
     "gitDecoration.renamedResourceForeground": "#94e696c8",
     "gitDecoration.stageDeletedResourceForeground": "#a0a8b3e0",
     "gitDecoration.stageModifiedModifiedResourceForeground": "#f5d795c8",
-    "gitDecoration.submoduleResourceForeground": "#65e8e0",
+    "gitDecoration.submoduleResourceForeground": "#7dd3fc",
     "input.background": "#0a0c13",
     "input.border": "#252936",
     "input.foreground": "#cbd5e1",
@@ -533,36 +533,36 @@
     "symbolIcon.arrayForeground": "#6ee7b7",
     "symbolIcon.booleanForeground": "#c7a5fe",
     "symbolIcon.colorForeground": "#fbcfe8",
-    "symbolIcon.constructorForeground": "#60e2f2",
+    "symbolIcon.constructorForeground": "#a5f3fc",
     "symbolIcon.eventForeground": "#fc96d5",
     "symbolIcon.fileForeground": "#6ee7b7",
     "symbolIcon.folderForeground": "#fef08a",
     "symbolIcon.keyForeground": "#fdba74",
     "symbolIcon.nullForeground": "#77d4d4",
     "symbolIcon.numberForeground": "#77d4d4",
-    "symbolIcon.objectForeground": "#65e8e0",
+    "symbolIcon.objectForeground": "#7dd3fc",
     "symbolIcon.operatorForeground": "#cbd5e1",
     "symbolIcon.packageForeground": "#e2e8f0",
     "symbolIcon.referenceForeground": "#cbd5e1",
-    "symbolIcon.snippetForeground": "#65e8e0",
+    "symbolIcon.snippetForeground": "#7dd3fc",
     "symbolIcon.stringForeground": "#a8d493",
     "symbolIcon.textForeground": "#cbd5e1",
     "symbolIcon.unitForeground": "#e2e8f0",
     /* Symbol icons (done) */
-    "symbolIcon.classForeground": "#65e8e0",
+    "symbolIcon.classForeground": "#7dd3fc",
     "symbolIcon.constantForeground": "#FDBA74",
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
-    "symbolIcon.functionForeground": "#60e2f2",
+    "symbolIcon.functionForeground": "#a5f3fc",
     "symbolIcon.interfaceForeground": "#aad6ff",
     "symbolIcon.keywordForeground": "#f5d795",
-    "symbolIcon.methodForeground": "#60e2f2",
+    "symbolIcon.methodForeground": "#a5f3fc",
     "symbolIcon.moduleForeground": "#e2e8f0",
     "symbolIcon.namespaceForeground": "#e2e8f0",
     "symbolIcon.propertyForeground": "#fdba74",
-    "symbolIcon.structForeground": "#65e8e0",
-    "symbolIcon.typeParameterForeground": "#f1f5f9",
+    "symbolIcon.structForeground": "#7dd3fc",
+    "symbolIcon.typeParameterForeground": "#fdba74",
     "symbolIcon.variableForeground": "#e2e8f0cc",
     "terminal.border": "#94a3b8",
     "terminal.dropBackground": "#6ee7b722",
@@ -821,7 +821,7 @@
         "entity.other.attribute-name.table.array.toml"
       ],
       "settings": {
-        "foreground": "#60e2f2"
+        "foreground": "#a5f3fc"
       }
     },
     // FIXME: Fix inconsistent colors in certain contexts
@@ -834,7 +834,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#65e8e0"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "scope": ["punctuation.definition.range.diff", "meta.diff.range"],
       "settings": {
-        "foreground": "#65e8e0"
+        "foreground": "#7dd3fc"
       }
     },
     {
@@ -1184,7 +1184,7 @@
     {
       "scope": "variable.parameter.label.asm",
       "settings": {
-        "foreground": "#60e2f2"
+        "foreground": "#a5f3fc"
       }
     },
     {
@@ -1258,10 +1258,10 @@
       "foreground": "#fef08a"
     },
     "function": {
-      "foreground": "#60e2f2"
+      "foreground": "#a5f3fc"
     },
     "method": {
-      "foreground": "#60e2f2"
+      "foreground": "#a5f3fc"
     },
     /* Self keyword and Type */
     "selfKeyword": {
@@ -1293,11 +1293,11 @@
       "fontStyle": "bold"
     },
     "selfTypeKeyword": {
-      "foreground": "#e2e8f0",
+      "foreground": "#f5d795",
       "fontStyle": "bold"
     },
     "selfTypeKeyword.injected": {
-      "foreground": "#e2e8f0",
+      "foreground": "#f5d795",
       "fontStyle": "bold"
     },
     /* Variable */
@@ -1308,26 +1308,26 @@
       "foreground": "#e2e8f0cc"
     },
     "variable.constant": {
-      "foreground": "#e2e8f0"
+      "foreground": "#fdba74"
     },
     "variable.constant.injected": {
-      "foreground": "#e2e8f0"
+      "foreground": "#fdba74"
     },
     "variable.static": {
-      "foreground": "#e2e8f0"
+      "foreground": "#fdba74"
     },
     "variable.static.injected": {
-      "foreground": "#e2e8f0"
+      "foreground": "#fdba74"
     },
     /* Fallback type (appears to be used throughout entire VSCode) */
     "type": {
       "foreground": "#a6e7f4"
     },
     "class": {
-      "foreground": "#65e8e0"
+      "foreground": "#7dd3fc"
     },
     "struct": {
-      "foreground": "#65e8e0"
+      "foreground": "#7dd3fc"
     },
     "enum": {
       "foreground": "#6ee7b7"
@@ -1359,23 +1359,23 @@
       "foreground": "#daa5f8"
     },
     "typeParameter": {
-      "foreground": "#E2E8F0",
+      "foreground": "#fdba74",
       "fontStyle": "bold"
     },
     "typeParameter.injected": {
-      "foreground": "#E2E8F0",
+      "foreground": "#fdba74",
       "fontStyle": "bold"
     },
     "typeParameter.declaration": {
-      "foreground": "#E2E8F0",
+      "foreground": "#fdba74",
       "fontStyle": "bold"
     },
     "typeParameter.public": {
-      "foreground": "#f1f5f9",
+      "foreground": "#fdba74",
       "fontStyle": "bold"
     },
     "typeParameter.public.declaration": {
-      "foreground": "#f1f5f9",
+      "foreground": "#fdba74",
       "fontStyle": "bold"
     },
     "property": {
@@ -1399,15 +1399,15 @@
       "foreground": "#faf2bc"
     },
     "macro": {
-      "foreground": "#22D3EE",
+      "foreground": "#C7A5FE",
       "fontStyle": "underline"
     },
     "macro.injected": {
-      "foreground": "#22D3EE",
+      "foreground": "#C7A5FE",
       "fontStyle": "underline"
     },
     "macro.unsafe": {
-      "foreground": "#22D3EE",
+      "foreground": "#C7A5FE",
       "fontStyle": "underline"
     },
     "lifetime": {
@@ -1434,7 +1434,7 @@
       "foreground": "#e2e8f0"
     },
     "builtinAttribute": {
-      "foreground": "#74d5e8"
+      "foreground": "#D8B4FE"
     },
     "derive": {
       "foreground": "#aad6ff"
@@ -1484,19 +1484,19 @@
       "foreground": "#99f6e4"
     },
     "function.injected": {
-      "foreground": "#60e2f2"
+      "foreground": "#a5f3fc"
     },
     "method.injected": {
-      "foreground": "#60e2f2"
+      "foreground": "#a5f3fc"
     },
     "type.injected": {
       "foreground": "#a6e7f4"
     },
     "class.injected": {
-      "foreground": "#65e8e0"
+      "foreground": "#7dd3fc"
     },
     "struct.injected": {
-      "foreground": "#65e8e0"
+      "foreground": "#7dd3fc"
     },
     "enum.injected": {
       "foreground": "#6ee7b7"
