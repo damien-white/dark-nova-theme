@@ -4,14 +4,15 @@ Dark Nova is a colorful theme with semantic token / highlighting support.
 
 ## Language Support
 
-This theme supports a limited subset of languages at this time:
+First-class language support is provided for:
 - Rust
-  - Schema definiton languages, such as JSON, TOML, etc.
+- TOML
+- JSON
+- YAML
+- NASM / Assembly language
+  - x86-64 processor
 
-### Warning
-
-Using this theme with any other language, at this time, will be a total gamble and I would advise
-against it.
+Other languages will be supported on a best-effort basis until I have more free time.
 
 ## Stability
 
@@ -25,6 +26,17 @@ sure that updates will be frequent and anything broken will promptly be fixed!
 This project is under active development and will receive frequent updates until it reaches a point
 of stability that I am comfortable with. Please use at your own risk, as there **will be** many
 **breaking changes** as I iron out the issues and get the palette's colors to play well with each other.
+
+### Roadmap
+
+- [ ] CSS color parser
+  - [ ] Hex strings (`#RRGGBB` / `#RRGGBBAA`)
+  - [ ] RGB / RGBA
+  - [ ] HSL / HSLA
+- [ ] Theme generator
+  - [ ] Automate process of adding, removing and modifying colors
+  - [ ] Generate color variants to reflect context
+    - This is to provide better support for modifiers such as `public`, `declaration`, etc.
 
 ### Miscellaneous
 
