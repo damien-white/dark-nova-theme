@@ -533,7 +533,7 @@
     "symbolIcon.arrayForeground": "#6ee7b7",
     "symbolIcon.booleanForeground": "#c7a5fe",
     "symbolIcon.colorForeground": "#fbcfe8",
-    "symbolIcon.constructorForeground": "#a5f3fc",
+    "symbolIcon.constructorForeground": "#60e2f2",
     "symbolIcon.eventForeground": "#fc96d5",
     "symbolIcon.fileForeground": "#6ee7b7",
     "symbolIcon.folderForeground": "#fef08a",
@@ -554,10 +554,10 @@
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
-    "symbolIcon.functionForeground": "#a5f3fc",
+    "symbolIcon.functionForeground": "#60e2f2",
     "symbolIcon.interfaceForeground": "#aad6ff",
     "symbolIcon.keywordForeground": "#f5d795",
-    "symbolIcon.methodForeground": "#a5f3fc",
+    "symbolIcon.methodForeground": "#60e2f2",
     "symbolIcon.moduleForeground": "#e2e8f0",
     "symbolIcon.namespaceForeground": "#e2e8f0",
     "symbolIcon.propertyForeground": "#fdba74",
@@ -821,7 +821,7 @@
         "entity.other.attribute-name.table.array.toml"
       ],
       "settings": {
-        "foreground": "#a5f3fc"
+        "foreground": "#60e2f2"
       }
     },
     // FIXME: Fix inconsistent colors in certain contexts
@@ -1184,7 +1184,7 @@
     {
       "scope": "variable.parameter.label.asm",
       "settings": {
-        "foreground": "#a5f3fc"
+        "foreground": "#60e2f2"
       }
     },
     {
@@ -1258,10 +1258,10 @@
       "foreground": "#fef08a"
     },
     "function": {
-      "foreground": "#a5f3fc"
+      "foreground": "#60e2f2"
     },
     "method": {
-      "foreground": "#a5f3fc"
+      "foreground": "#60e2f2"
     },
     /* Self keyword and Type */
     "selfKeyword": {
@@ -1484,10 +1484,10 @@
       "foreground": "#99f6e4"
     },
     "function.injected": {
-      "foreground": "#a5f3fc"
+      "foreground": "#60e2f2"
     },
     "method.injected": {
-      "foreground": "#a5f3fc"
+      "foreground": "#60e2f2"
     },
     "type.injected": {
       "foreground": "#a6e7f4"
