@@ -1274,7 +1274,7 @@
     },
     "selfKeyword.declaration.mutable": {
       "foreground": "#e2e8f0",
-      "fontStyle": "bold"
+      "fontStyle": "bold underline"
     },
     "selfKeyword.declaration.public": {
       "foreground": "#e2e8f0",
@@ -1286,7 +1286,7 @@
     },
     "selfKeyword.mutable": {
       "foreground": "#e2e8f0",
-      "fontStyle": "bold"
+      "fontStyle": "bold underline"
     },
     "selfKeyword.reference": {
       "foreground": "#e2e8f0",
