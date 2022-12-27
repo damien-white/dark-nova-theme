@@ -122,8 +122,8 @@
     "gitDecoration.untrackedResourceForeground": "#7dd3fc",
     "gitDecoration.deletedResourceForeground": "#e4676bc8",
     "gitDecoration.renamedResourceForeground": "#94e696c8",
-    "gitDecoration.stageDeletedResourceForeground": "#a0a8b3e0",
-    "gitDecoration.stageModifiedModifiedResourceForeground": "#f5d795c8",
+    "gitDecoration.stageDeletedResourceForeground": "#a0a8b3",
+    "gitDecoration.stageModifiedResourceForeground": "#f5d795",
     "gitDecoration.submoduleResourceForeground": "#7dd3fc",
     "input.background": "#0a0c13",
     "input.border": "#252936",
@@ -550,7 +550,7 @@
     "symbolIcon.unitForeground": "#e2e8f0",
     /* Symbol icons (done) */
     "symbolIcon.classForeground": "#7dd3fc",
-    "symbolIcon.constantForeground": "#b8f08f",
+    "symbolIcon.constantForeground": "#a9e080",
     "symbolIcon.enumeratorForeground": "#6ee7b7",
     "symbolIcon.enumeratorMemberForeground": "#99f6e4",
     "symbolIcon.fieldForeground": "#fdba74",
@@ -726,7 +726,8 @@
         "variable.language.this"
       ],
       "settings": {
-        "foreground": "#f5d795"
+        "foreground": "#f5d795",
+        "fontStyle": "bold"
       }
     },
     // FIXME: String interpolation within macros does not work as intended.
@@ -856,12 +857,12 @@
         "foreground": "#cca8fc"
       }
     },
-    {
-      "scope": ["entity.name.type.parameter", "variable.type"],
-      "settings": {
-        "foreground": "#77d4d4"
-      }
-    },
+    // {
+    //   "scope": ["entity.name.type.parameter", "variable.type"],
+    //   "settings": {
+    //     "foreground": "#77d4d4"
+    //   }
+    // },
     {
       "name": "Property, Fields",
       "scope": [
@@ -904,9 +905,9 @@
     },
     {
       "name": "Constant and Static variables",
-      "scope": ["constant.other.caps.rust", "source.rust"],
+      "scope": ["constant.other.caps"],
       "settings": {
-        "foreground": "#b8f08f",
+        // "foreground": "#a9e080",
         "fontStyle": "bold"
       }
     },
@@ -936,7 +937,7 @@
         "punctuation.definition.variable.elixir"
       ],
       "settings": {
-        "foreground": "#f1f5f9"
+        "foreground": "#cbd5e1"
       }
     },
     {
@@ -979,9 +980,19 @@
       }
     },
     {
+      "name": "Doc comments",
       "scope": ["comment.line.documentation"],
       "settings": {
-        "foreground": "#94a3b8"
+        "foreground": "#b2c8e4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Standard comments",
+      "scope": ["comment.line.double-slash"],
+      "settings": {
+        "foreground": "#94A3B8",
+        "fontStyle": ""
       }
     },
     {
@@ -1004,20 +1015,20 @@
         "entity.other.attribute-name.id"
       ],
       "settings": {
-        "foreground": "#e2e8f0cc"
+        "foreground": "#cbd5e1"
       }
     },
     {
       "scope": ["keyword.other.unsafe"],
       "settings": {
-        "foreground": "#f7757c",
+        "foreground": "#f7858c",
         "fontStyle": "italic bold"
       }
     },
     {
       "scope": ["meta.function-call.unsafe"],
       "settings": {
-        "foreground": "#f7757c"
+        "foreground": "#f7858c"
         // "fontStyle": "italic bold"
       }
     },
@@ -1036,7 +1047,7 @@
         "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#e2e8f0cc",
+        "foreground": "#cbd5e1",
         "fontStyle": ""
       }
     },
@@ -1211,22 +1222,22 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "keyword": {
-      "foreground": "#f5d795"
-      // "fontStyle": ""
+      "foreground": "#f5d795",
+      "fontStyle": "bold"
     },
     "keyword.mut": {
       "fontStyle": "bold underline"
     },
     "keyword.unsafe": {
-      "fontStyle": "underline"
+      "fontStyle": "bold underline"
     },
     "keyword.injected": {
       "foreground": "#f5d795",
       "fontStyle": "bold"
     },
     "keyword.unsafe.injected": {
-      "foreground": "#f7757c",
-      "fontStyle": "underline"
+      "foreground": "#f7858c",
+      "fontStyle": "bold underline"
     },
     "boolean": {
       "foreground": "#cca8fc"
@@ -1313,40 +1324,40 @@
     },
     /* Variable */
     "variable": {
-      "foreground": "#e2e8f0cc"
+      "foreground": "#cbd5e1"
     },
     "variable.injected": {
-      "foreground": "#e2e8f0cc"
+      "foreground": "#cbd5e1"
     },
     "variable.constant": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.constant.injected": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.constant.public": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.constant.declaration": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.constant.declaration.public": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.static": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.static.injected": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.static.public": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.static.declaration": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     "variable.static.declaration.public": {
-      "foreground": "#b8f08f"
+      "foreground": "#a9e080"
     },
     /* Fallback type (appears to be used throughout entire VSCode) */
     "type": {
@@ -1378,12 +1389,6 @@
       "foreground": "#cca8fc",
       "fontStyle": "bold"
     },
-    // "builtinType": {
-    // "foreground": "#a5f3fc"
-    // },
-    // "builtinType.injected": {
-    // "foreground": "#a5f3fc"
-    // },
     "builtinType": {
       "foreground": "#cca8fc",
       "fontStyle": ""
@@ -1451,10 +1456,12 @@
       "fontStyle": ""
     },
     "namespace.crateRoot": {
-      "foreground": "#faf2bc"
+      "foreground": "#e2e8f0",
+      "fontStyle": "bold"
     },
     "namespace.crateRoot.injected": {
-      "foreground": "#faf2bc"
+      "foreground": "#e2e8f0",
+      "fontStyle": "bold"
     },
     "macro": {
       "foreground": "#cca8fc",
@@ -1477,12 +1484,6 @@
     },
     "formatSpecifier": {
       "foreground": "#5eead4"
-    },
-    "comment": {
-      "foreground": "#94a3b8e0"
-    },
-    "comment.documentation": {
-      "foreground": "#94a3b8"
     },
     "attribute": {
       "foreground": "#e2e8f0"
@@ -1507,7 +1508,7 @@
       "foreground": "#cca8fc"
     },
     "function.unsafe": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     },
     "operator": {
       "fontStyle": "bold"
@@ -1516,7 +1517,7 @@
       "foreground": "#5eead4"
     },
     "operator.unsafe": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     },
     "punctuation": {
       "foreground": "#cbd5e1",
@@ -1593,6 +1594,10 @@
     "property.injected": {
       "foreground": "#fdba74"
     },
+    "property.declaration": {
+      "foreground": "#fdba74",
+      "fontStyle": ""
+    },
     "interface.injected": {
       "foreground": "#aad6ff"
     },
@@ -1606,11 +1611,21 @@
     "formatSpecifier.injected": {
       "foreground": "#5eead4"
     },
+    "comment": {
+      "foreground": "#94A3B8",
+      "fontStyle": "italic"
+    },
     "comment.injected": {
-      "foreground": "#94a3b8e0"
+      "foreground": "#94A3B8",
+      "fontStyle": "italic"
+    },
+    "comment.documentation": {
+      "foreground": "#b2c8e4",
+      "fontStyle": "italic"
     },
     "comment.documentation.injected": {
-      "foreground": "#94a3b8e0"
+      "foreground": "#b2c8e4",
+      "fontStyle": "italic"
     },
     "attribute.injected": {
       "foreground": "#e2e8f0"
@@ -1622,10 +1637,10 @@
       "foreground": "#74d5e8"
     },
     "function.unsafe.injected": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     },
     "operator.unsafe.injected": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     },
     "punctuation.injected": {
       "foreground": "#cbd5e1",
@@ -1661,17 +1676,17 @@
     "*.public": {
       "fontStyle": "bold"
     },
-    // "*.declaration": {
-    //   // "fontStyle": ""
-    // },
+    "*.declaration": {
+      "fontStyle": ""
+    },
     "*.declaration.public": {
       "fontStyle": "bold"
     },
     "*.unsafe": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     },
     "*.unsafe.injected": {
-      "foreground": "#f7757c"
+      "foreground": "#f7858c"
     }
   }
 }
