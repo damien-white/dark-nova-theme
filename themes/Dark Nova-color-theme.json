@@ -189,8 +189,8 @@
     "sideBarTitle.foreground": "#8affe5",
     "statusBar.background": "#0a0c13",
     "statusBar.border": "#64748b",
-    "statusBar.debuggingBackground": "#94a3b840",
-    "statusBar.debuggingForeground": "#4ade80",
+    "statusBar.debuggingBackground": "#191c27",
+    "statusBar.debuggingForeground": "#de4a4a",
     "statusBar.foreground": "#e2e8f0d7",
     "statusBar.noFolderBackground": "#0a0c13",
     /* Terminal ANSI colors */
@@ -302,7 +302,7 @@
     "editorGhostText.foreground": "#64748b",
     "editorGroup.dropIntoPromptBackground": "#191c27",
     "editorGroup.dropIntoPromptForeground": "#cbd5e1",
-    "editorGutter.commentRangeForeground": "#191c27a0",
+    "editorGutter.commentRangeForeground": "#b2c8e4a0",
     "editorGutter.foldingControlForeground": "#c5c5c5",
     "editorHint.foreground": "#eeeeeeb3",
     "editorHoverWidget.background": "#191c27",
@@ -1378,23 +1378,40 @@
       "foreground": "#86efac"
     },
     "typeAlias": {
-      "foreground": "#cca8fc"
+      "foreground": "#d8b4fe"
     },
-    "typeAlias.injected": {
-      "foreground": "#cca8fc"
+    "typeAlias.documentation": {
+      "foreground": "#d8b4fe"
     },
     "typeAlias.declaration": {
-      "foreground": "#cca8fc"
+      "foreground": "#d8b4fe"
+    },
+    "typeAlias.injected": {
+      "foreground": "#d8b4fe"
+    },
+    "typeAlias.library": {
+      "foreground": "#d8b4fe"
+    },
+    "typeAlias.intraDocLink": {
+      "foreground": "#d8b4fe"
     },
     "typeAlias.trait": {
-      "foreground": "#cca8fc",
+      "foreground": "#d8b4fe",
       "fontStyle": "bold"
     },
     "typeAlias.declaration.trait": {
-      "foreground": "#cca8fc",
+      "foreground": "#d8b4fe",
       "fontStyle": "bold"
     },
     "builtinType": {
+      "foreground": "#cca8fc",
+      "fontStyle": ""
+    },
+    "builtinType.declaration": {
+      "foreground": "#cca8fc",
+      "fontStyle": ""
+    },
+    "builtinType.public": {
       "foreground": "#cca8fc",
       "fontStyle": ""
     },
@@ -1403,14 +1420,6 @@
       "fontStyle": ""
     },
     "builtinType.documentation": {
-      "foreground": "#cca8fc",
-      "fontStyle": ""
-    },
-    "builtinType.public": {
-      "foreground": "#cca8fc",
-      "fontStyle": ""
-    },
-    "builtinType.declaration": {
       "foreground": "#cca8fc",
       "fontStyle": ""
     },
@@ -1427,23 +1436,31 @@
       "fontStyle": ""
     },
     "typeParameter": {
-      "foreground": "#e2e8f0",
-      "fontStyle": "bold"
-    },
-    "typeParameter.injected": {
-      "foreground": "#e2e8f0",
+      "foreground": "#ffc369",
       "fontStyle": "bold"
     },
     "typeParameter.declaration": {
-      "foreground": "#e2e8f0",
+      "foreground": "#ffc369",
       "fontStyle": "bold"
     },
+    "typeParameter.documentation": {
+      "foreground": "#ffc369"
+    },
+    "typeParameter.injected": {
+      "foreground": "#ffc369"
+    },
+    "typeParameter.library": {
+      "foreground": "#ffc369"
+    },
+    "typeParameter.intraDocLink": {
+      "foreground": "#ffc369"
+    },
     "typeParameter.public": {
-      "foreground": "#e2e8f0",
+      "foreground": "#ffc369",
       "fontStyle": "bold"
     },
     "typeParameter.public.declaration": {
-      "foreground": "#e2e8f0",
+      "foreground": "#ffc369",
       "fontStyle": "bold"
     },
     "property": {
@@ -1451,6 +1468,18 @@
     },
     "interface": {
       "foreground": "#aad6ff"
+    },
+    "interface.declaration.public": {
+      "foreground": "#aad6ff",
+      "fontStyle": "underline bold"
+    },
+    "interface.declaration": {
+      "foreground": "#aad6ff",
+      "fontStyle": "underline"
+    },
+    "interface.library": {
+      "foreground": "#aad6ff",
+      "fontStyle": "bold"
     },
     "namespace": {
       "foreground": "#e2e8f0",
@@ -1519,7 +1548,7 @@
       "fontStyle": "bold"
     },
     "operator.controlFlow": {
-      "foreground": "#5eead4"
+      "foreground": "#d8b4fe"
     },
     "operator.unsafe": {
       "foreground": "#f7858c"
@@ -1556,24 +1585,32 @@
     "class.injected": {
       "foreground": "#7dd3fc"
     },
+    "struct.declaration.public": {
+      "fontStyle": "bold underline"
+    },
+    // "struct.declaration.defaultLibrary": {
+    //   "fontStyle": "underline"
+    // },
     "struct.injected": {
       "foreground": "#7dd3fc"
     },
     "enum": {
-      "foreground": "#6EE7B7"
+      "foreground": "#6ee7b7"
     },
     "enum.declaration": {
-      "foreground": "#6EE7B7"
+      "foreground": "#6ee7b7",
+      "fontStyle": "underline"
     },
     "enum.declaration.public": {
-      "foreground": "#6EE7B7"
+      "foreground": "#6ee7b7",
+      "fontStyle": "bold underline"
     },
     "enum.defaultLibrary": {
-      "foreground": "#6EE7B7",
+      "foreground": "#6ee7b7",
       "fontStyle": "bold"
     },
     "enum.injected": {
-      "foreground": "#6EE7B7"
+      "foreground": "#6ee7b7"
     },
     "enumMember": {
       "foreground": "#77f9a1"
@@ -1618,19 +1655,19 @@
     },
     "comment": {
       "foreground": "#94A3B8",
-      "fontStyle": "italic"
-    },
-    "comment.injected": {
-      "foreground": "#94A3B8",
-      "fontStyle": "italic"
+      "fontStyle": ""
     },
     "comment.documentation": {
       "foreground": "#b2c8e4",
-      "fontStyle": "italic"
+      "fontStyle": ""
+    },
+    "comment.injected": {
+      "foreground": "#94A3B8",
+      "fontStyle": ""
     },
     "comment.documentation.injected": {
       "foreground": "#b2c8e4",
-      "fontStyle": "italic"
+      "fontStyle": ""
     },
     "attribute.injected": {
       "foreground": "#e2e8f0"
@@ -1671,6 +1708,9 @@
     },
     "*.declaration.mutable": {
       "fontStyle": "underline"
+    },
+    "*.injected": {
+      "fontStyle": ""
     },
     "*.mutable": {
       "fontStyle": "underline"
