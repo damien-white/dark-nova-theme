@@ -4,13 +4,19 @@ Dark Nova is a colorful theme with semantic token / highlighting support.
 
 ## Language Support
 
-First-class language support is provided for:
+First-class language support:
 - Rust
 - TOML
 - JSON
 - YAML
 - NASM / Assembly language
-  - x86-64 processor
+
+Basic, rudimentary support:
+- JavaScript
+- TypeScript
+- Unix/Linux shell
+- PowerShell
+- Just
 
 Other languages will be supported on a best-effort basis until I have more free time.
 
