@@ -1,6 +1,6 @@
 {
   "name": "dark-nova",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "displayName": "Dark Nova",
   "description": "Dark theme that prioritizes semantic token support",
   "publisher": "dark-nova",
@@ -8,7 +8,7 @@
     "Themes"
   ],
   "repository": {
-    "url": "https://github.com/peter-donovan/dark-nova-theme"
+    "url": "https://github.com/damien-white/dark-nova-theme"
   },
   "engines": {
     "vscode": "^1.73.0"
